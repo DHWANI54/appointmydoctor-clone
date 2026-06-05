@@ -1,0 +1,43 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="90" x2="1100" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EAF1FF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F5F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" rx="28" fill="url(#bg)"/>
+  <rect x="150" y="92" width="900" height="612" rx="28" fill="#F7FAFF" stroke="#E4ECF9"/>
+
+  <rect x="520" y="110" width="444" height="580" rx="24" fill="#DDE8F6"/>
+  <rect x="548" y="136" width="388" height="528" rx="20" fill="#F4F7FB"/>
+  <rect x="576" y="170" width="332" height="460" rx="18" fill="#FFF"/>
+  <rect x="576" y="170" width="332" height="460" rx="18" fill="url(#card)" opacity="0.92"/>
+
+  <circle cx="710" cy="316" r="54" fill="#E7BC95"/>
+  <path d="M678 314C678 282 696 255 710 255C726 255 744 282 744 314C744 348 728 370 710 370C693 370 678 348 678 314Z" fill="#F2C39A"/>
+  <path d="M666 308C664 268 686 236 710 236C736 236 758 268 760 306C756 314 752 323 748 326C736 316 722 310 710 310C696 310 682 316 666 308Z" fill="#243041"/>
+  <path d="M622 448C628 402 646 374 676 362C688 357 706 355 716 358C748 368 768 399 772 448V576H618L622 448Z" fill="#3E7BD2"/>
+  <path d="M646 372L608 418L632 436L674 396L646 372Z" fill="#EFF5FF"/>
+  <path d="M674 396L714 436L732 576H704L678 480L674 396Z" fill="#EFF5FF"/>
+
+  <circle cx="862" cy="326" r="52" fill="#E8C39C"/>
+  <path d="M832 324C832 292 848 264 862 264C878 264 894 292 894 324C894 356 880 378 862 378C845 378 832 356 832 324Z" fill="#F2C39A"/>
+  <path d="M820 318C818 276 840 244 862 244C886 244 906 274 908 314C906 322 902 329 898 334C886 324 872 318 862 318C850 318 836 324 820 318Z" fill="#2D2A33"/>
+  <path d="M792 448C798 402 816 374 846 362C858 357 876 355 886 358C918 368 938 399 942 448V576H788L792 448Z" fill="#D7E1EF"/>
+  <path d="M816 372L778 418L802 436L844 396L816 372Z" fill="#EFF5FF"/>
+  <path d="M844 396L884 436L902 576H874L848 480L844 396Z" fill="#EFF5FF"/>
+
+  <rect x="184" y="246" width="260" height="274" rx="20" fill="#FFFFFF" stroke="#E4ECF9"/>
+  <rect x="206" y="274" width="216" height="18" rx="9" fill="#DCE7F7"/>
+  <rect x="206" y="304" width="156" height="14" rx="7" fill="#E7EEF8"/>
+  <rect x="206" y="340" width="190" height="14" rx="7" fill="#E7EEF8"/>
+  <rect x="206" y="388" width="216" height="18" rx="9" fill="#DCE7F7"/>
+  <rect x="206" y="418" width="142" height="14" rx="7" fill="#E7EEF8"/>
+  <rect x="206" y="454" width="180" height="14" rx="7" fill="#E7EEF8"/>
+  <circle cx="236" cy="206" r="10" fill="#1F5DE8"/>
+  <text x="206" y="232" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Talk to Our Team</text>
+</svg>

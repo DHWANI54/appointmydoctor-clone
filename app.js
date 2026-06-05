@@ -60,7 +60,68 @@ function initContactForm() {
   });
 }
 
+function initFaqAccordion() {
+  const faqItems = document.querySelectorAll('[data-faq-item]');
+  if (!faqItems.length) return;
+
+  faqItems.forEach((item) => {
+    const button = item.querySelector('[data-faq-button]');
+    if (!button) return;
+    button.addEventListener('click', () => {
+      const expanded = item.getAttribute('data-open') === 'true';
+      faqItems.forEach((other) => other.setAttribute('data-open', 'false'));
+      item.setAttribute('data-open', String(!expanded));
+    });
+  });
+}
+
+function initMobileNav() {
+  const nav = document.querySelector('#primary-nav');
+  const toggle = document.querySelector('[data-nav-toggle]');
+  if (!nav || !toggle) return;
+
+  const closeNav = () => {
+    nav.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  };
+
+  const openNav = () => {
+    nav.classList.add('is-open');
+    toggle.setAttribute('aria-expanded', 'true');
+  };
+
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.contains('is-open');
+    if (open) {
+      closeNav();
+    } else {
+      openNav();
+    }
+  });
+
+  nav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (window.matchMedia('(max-width: 960px)').matches) {
+        closeNav();
+      }
+    });
+  });
+
+  window.addEventListener('resize', () => {
+    if (!window.matchMedia('(max-width: 960px)').matches) {
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  window.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeNav();
+  });
+}
+
 setActiveNav();
 initTabs();
 initFooterYear();
 initContactForm();
+initFaqAccordion();
+initMobileNav();

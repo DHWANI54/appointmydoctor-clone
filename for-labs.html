@@ -13,40 +13,133 @@
         <a class="brand" href="./index.html" aria-label="Appointmydoctor home">
           <span>Appoint</span><span class="chip">my</span><span>Doctor</span>
         </a>
-        <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
           <a data-nav="home" href="./index.html">Home</a>
           <a data-nav="about" href="./about.html">About</a>
           <a data-nav="products" href="./products.html">Products</a>
           <a data-nav="clinics" href="./for-clinics.html">For Clinics</a>
           <a data-nav="labs" href="./for-labs.html">For Labs</a>
           <a data-nav="contact" href="./contact.html">Contact</a>
+          <a class="nav-cta" href="./contact.html">Request Demo</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="hero-band tight">
-        <div class="container page-head">
-          <span class="eyebrow">Built for Diagnostic Labs &amp; Imaging Centers</span>
-          <h1 class="hero-title medium">Modern Diagnostic Infrastructure <span class="accent">Designed for Labs</span></h1>
-          <p class="hero-copy">
-            Appointmydoctor helps diagnostic and imaging labs streamline test workflows, manage reports digitally, and stay connected with referring doctors - all through AI-powered lab infrastructure.
-          </p>
+      <section class="hero-band">
+        <div class="container hero-grid">
+          <div class="page-head">
+            <div class="eyebrow">BUILT FOR DIAGNOSTIC LABS &amp; IMAGING CENTERS</div>
+            <h1 class="hero-title medium stacked">
+              Modern Diagnostic
+              <span>Infrastructure</span>
+              <span class="accent">Designed for Labs</span>
+            </h1>
+            <p class="hero-copy">
+              Appointmydoctor helps diagnostic and imaging labs streamline test workflows, manage reports digitally, and stay connected with referring doctors - all through AI-powered lab infrastructure.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="./contact.html">
+                Request Demo
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h12" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/>
+                  <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a class="btn secondary" href="#lab-features">
+                Explore Solutions
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="mini-cap-row">
+              <div class="mini-cap">
+                <div class="feature-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <h4>Secure &amp; Compliant</h4>
+                <p>HIPAA-ready data protection</p>
+              </div>
+              <div class="mini-cap">
+                <div class="feature-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 12h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M7 9l-3 3 3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17 9l3 3-3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <h4>Cloud-Based</h4>
+                <p>Access anywhere, anytime</p>
+              </div>
+              <div class="mini-cap">
+                <div class="feature-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M9.5 12 11 13.5 15 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <h4>AI-Powered</h4>
+                <p>Smarter workflows &amp; faster reporting</p>
+              </div>
+              <div class="mini-cap">
+                <div class="feature-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 12c3-4 7-6 8-6s5 2 8 6c-3 4-7 6-8 6s-5-2-8-6Z" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h4>24/7 Support</h4>
+                <p>Always here when you need us</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-figure">
+            <div class="diagram-card">
+              <img src="./assets/labs-hero.svg" alt="Diagnostic lab scientist working with analytics overlays" />
+            </div>
+            <div class="dot-grid" aria-hidden="true"></div>
+            <div class="hero-stat top-left">
+              <p class="label">Tests Processed</p>
+              <p class="value">1.2M+</p>
+              <p class="sub">+18% vs last month</p>
+            </div>
+            <div class="hero-stat mid-left">
+              <p class="label">Reports Delivered</p>
+              <p class="value">980K+</p>
+              <p class="sub">+16% vs last month</p>
+            </div>
+            <div class="hero-stat bottom-left">
+              <p class="label">TAT Improvement</p>
+              <p class="value">28%</p>
+              <p class="sub">+12% vs last month</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="lab-features">
         <div class="container">
-          <div class="section-heading">
-            <h2>Why Labs Choose Appointmydoctor</h2>
-            <p>Designed to support diagnostic and imaging labs with connected workflows, faster report delivery, and seamless doctor-patient coordination.</p>
-          </div>
+          <p class="section-label">WHY LABS CHOOSE APPOINTMYDOCTOR</p>
+          <h2 class="section-title">Everything You Need to Run Lab Operations Smarter</h2>
+          <p class="section-subtitle">Designed to support diagnostic and imaging labs with connected workflows and better operational efficiency.</p>
+
           <div class="feature-grid three">
             <article class="feature-card">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="2"/>
-                  <path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" stroke-width="2"/>
+                  <path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 </svg>
               </div>
               <h3>Smart Test Booking</h3>
@@ -54,7 +147,7 @@
             </article>
             <article class="feature-card">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M6 4h10l4 4v12H6z" stroke="currentColor" stroke-width="2"/>
                   <path d="M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -64,8 +157,8 @@
             </article>
             <article class="feature-card">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M12 3 20 7v6c0 4.7-3.1 7.9-8 10-4.9-2.1-8-5.3-8-10V7l8-4Z" stroke="currentColor" stroke-width="2"/>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
                   <path d="M9.5 12 11 13.5 15 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
@@ -74,7 +167,7 @@
             </article>
             <article class="feature-card">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M8 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" stroke="currentColor" stroke-width="2"/>
                   <path d="M16.5 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"/>
                 </svg>
@@ -84,8 +177,8 @@
             </article>
             <article class="feature-card">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M12 3l7 3v5c0 4.4-3 8.2-7 10-4-1.8-7-5.6-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
                 </svg>
               </div>
               <h3>Secure &amp; Scalable Infrastructure</h3>
@@ -93,8 +186,9 @@
             </article>
             <article class="feature-card">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M6 19V9M12 19V5M18 19v-8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M7 16V9M12 16V6M17 16v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 </svg>
               </div>
               <h3>Operational Efficiency</h3>
@@ -106,59 +200,68 @@
 
       <section class="section soft">
         <div class="container">
-          <div class="section-heading">
-            <h2>Build Lab Operations Smarter</h2>
-            <p>Everything your lab needs to run efficiently - from sample intake to final report delivery.</p>
-          </div>
-          <div class="feature-grid three">
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M10 3h4v4l4 7a4 4 0 0 1-4 6h-4a4 4 0 0 1-4-6l4-7V3Z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </div>
-              <h3>Automated Sample Tracking</h3>
-              <p>Track every sample from collection to processing with real-time status updates for staff and patients.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M4 12h4l3-5 4 10 2-5h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <h3>Instant Report Delivery</h3>
-              <p>Send lab reports directly to patients and referring doctors via SMS, email, or the patient app - the moment they're ready.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M4 12c3-4 7-6 8-6s5 2 8 6c-3 4-7 6-8 6s-5-2-8-6Z" stroke="currentColor" stroke-width="2"/>
-                  <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                </svg>
-              </div>
-              <h3>Seamless Doctor Integration</h3>
-              <p>Connect with referring physicians to receive test orders digitally and close the loop on results without calls or paperwork.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  <path d="M6 16V10M11 16V7M16 16v-4M20 16V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-              </div>
-              <h3>Lab Analytics &amp; Insights</h3>
-              <p>Monitor test volumes, turnaround times, and peak hours with built-in analytics to optimize lab performance.</p>
-            </article>
+          <div class="blue-panel" style="padding:34px 28px;">
+            <p class="section-label" style="text-align:center;color:#b9cdfa">BUILT TO IMPROVE EVERY STEP</p>
+            <h3 style="margin:0 0 6px;text-align:center;font-size:26px;color:#fff">Build Lab Operations Smarter</h3>
+            <p style="margin:0 0 22px;text-align:center;color:rgba(255,255,255,0.9)">From sample collection to final report delivery, we help you do it all efficiently.</p>
+            <div class="feature-grid four" style="margin-top:0;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;background:rgba(255,255,255,0.06);border-radius:20px;overflow:hidden;">
+              <article class="capability-card" style="background:transparent;border:0;border-right:1px solid rgba(255,255,255,0.18);box-shadow:none;color:#fff;">
+                <div class="feature-icon" style="background:rgba(255,255,255,0.18);color:#fff;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M10 3h4v4l4 7a4 4 0 0 1-4 6h-4a4 4 0 0 1-4-6l4-7V3Z" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <h3 style="color:#fff">Automated Sample Tracking</h3>
+                <p style="color:rgba(255,255,255,0.88)">Track every sample from collection to processing with real-time status updates for staff and patients.</p>
+              </article>
+              <article class="capability-card" style="background:transparent;border:0;border-right:1px solid rgba(255,255,255,0.18);box-shadow:none;color:#fff;">
+                <div class="feature-icon" style="background:rgba(255,255,255,0.18);color:#fff;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 12c3-4 7-6 8-6s5 2 8 6c-3 4-7 6-8 6s-5-2-8-6Z" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <h3 style="color:#fff">Instant Report Delivery</h3>
+                <p style="color:rgba(255,255,255,0.88)">Send lab reports directly to patients and referring doctors via SMS, email, or the patient app.</p>
+              </article>
+              <article class="capability-card" style="background:transparent;border:0;border-right:1px solid rgba(255,255,255,0.18);box-shadow:none;color:#fff;">
+                <div class="feature-icon" style="background:rgba(255,255,255,0.18);color:#fff;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 12h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M7 9l-3 3 3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17 9l3 3-3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <h3 style="color:#fff">Seamless Doctor Integration</h3>
+                <p style="color:rgba(255,255,255,0.88)">Connect with referring physicians to receive test orders digitally and close the loop on results.</p>
+              </article>
+              <article class="capability-card" style="background:transparent;border:0;box-shadow:none;color:#fff;">
+                <div class="feature-icon" style="background:rgba(255,255,255,0.18);color:#fff;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M7 16V9M12 16V6M17 16v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <h3 style="color:#fff">Lab Analytics &amp; Insights</h3>
+                <p style="color:rgba(255,255,255,0.88)">Monitor test volumes, turnaround times, and peak hours with built-in analytics to optimize performance.</p>
+              </article>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="cta-band">
-        <div class="container cta-center">
-          <h2 class="cta-title">Ready to Modernise Your Lab?</h2>
-          <p class="cta-copy">Join diagnostic labs and imaging centers already running on Appointmydoctor.</p>
-          <div class="cta-actions">
-            <a class="btn light" href="./contact.html">Book a Demo</a>
+      <section class="section">
+        <div class="container">
+          <div class="blue-panel" style="display:grid;grid-template-columns:1fr auto;align-items:center;gap:18px;">
+            <div>
+              <h3 style="margin:0 0 6px;font-size:24px;color:#fff">Ready to Modernise Your Lab?</h3>
+              <p>Join diagnostic labs and imaging centers already running on Appointmydoctor.</p>
+            </div>
+            <a class="btn light" href="./contact.html">Book a Demo
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h12" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/>
+                <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
@@ -168,8 +271,28 @@
       <div class="container footer-grid">
         <div>
           <div class="footer-brand"><span>Appoint</span><span class="chip">my</span><span>Doctor</span></div>
-          <p>Building AI-powered healthcare infrastructure designed to simplify clinic workflows, patient engagement, and connected healthcare operations across modern healthcare systems.</p>
+          <p>Building AI-powered healthcare infrastructure designed to simplify clinic workflows, patient engagement, and connected healthcare operations.</p>
           <p>Jaipur, India<br />support@appointmydoctor.in</p>
+          <div class="social-row">
+            <a class="social" href="#" aria-label="LinkedIn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 9v9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10 18V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M14 18v-5c0-2 1-3 3-3s3 1 3 3v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="Twitter">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7.5c-.7.3-1.4.5-2.1.6.8-.5 1.2-1.2 1.5-2.1-.8.5-1.6.8-2.5 1-1.5-1.6-4.2-1.2-5.3.8-.5.8-.6 1.8-.4 2.7-3-.1-5.6-1.6-7.3-4-.9 1.6-.4 3.6 1.1 4.7-.6 0-1.1-.2-1.6-.4 0 1.7 1.1 3.2 2.7 3.6-.5.1-1 .1-1.6 0 .5 1.5 1.9 2.6 3.5 2.6-1.6 1.3-3.6 1.9-5.7 1.7 1.6 1 3.5 1.6 5.5 1.6 6.6 0 10.3-5.6 10.1-10.7.7-.5 1.2-1.1 1.6-1.8Z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="YouTube">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="6" width="18" height="12" rx="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M10 9.5 15 12l-5 2.5v-5Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
         </div>
         <div>
           <h4>Navigation</h4>
@@ -178,7 +301,19 @@
             <a href="./about.html">About</a>
             <a href="./products.html">Products</a>
             <a href="./for-clinics.html">For Clinics</a>
+            <a href="./for-labs.html">For Labs</a>
             <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Solutions</h4>
+          <div class="footer-links">
+            <a href="./for-clinics.html">Clinic Management</a>
+            <a href="./for-labs.html">Lab Management</a>
+            <a href="./products.html">Patient Platform</a>
+            <a href="./products.html">ABDM Integration</a>
+            <a href="./products.html">Analytics &amp; Insights</a>
+            <a href="./products.html">AI Workflows</a>
           </div>
         </div>
         <div>
@@ -187,6 +322,7 @@
             <a href="#">Privacy Policy</a>
             <a href="#">Terms &amp; Conditions</a>
             <a href="#">Refund &amp; Reschedule Policy</a>
+            <a href="#">Data Security</a>
           </div>
         </div>
       </div>

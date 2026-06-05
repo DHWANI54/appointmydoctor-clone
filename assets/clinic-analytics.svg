@@ -1,0 +1,67 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D39A1"/>
+      <stop offset="1" stop-color="#1533B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="760" rx="28" fill="url(#bg)"/>
+  <rect x="44" y="44" width="1312" height="672" rx="22" fill="#16309A" opacity="0.12"/>
+  <rect x="112" y="102" width="412" height="556" rx="24" fill="none"/>
+  <text x="112" y="166" fill="#DCE7FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">DATA THAT DRIVES BETTER CARE</text>
+  <text x="112" y="228" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">Real-time Insights for</text>
+  <text x="112" y="280" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">Smarter Decisions</text>
+  <text x="112" y="336" fill="#E5ECFF" font-family="Inter, Arial, sans-serif" font-size="18">Track key metrics, monitor performance, and make</text>
+  <text x="112" y="362" fill="#E5ECFF" font-family="Inter, Arial, sans-serif" font-size="18">data-driven decisions to improve patient outcomes</text>
+  <text x="112" y="388" fill="#E5ECFF" font-family="Inter, Arial, sans-serif" font-size="18">and clinic efficiency.</text>
+  <rect x="112" y="446" width="180" height="58" rx="10" fill="#FFFFFF"/>
+  <text x="150" y="482" fill="#1548DA" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Explore Analytics</text>
+  <path d="M266 466h18" stroke="#1548DA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M278 456l10 10-10 10" stroke="#1548DA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="560" y="92" width="764" height="576" rx="24" fill="#FFFFFF"/>
+  <rect x="598" y="124" width="34" height="508" rx="12" fill="#18254F"/>
+  <circle cx="615" cy="184" r="10" fill="#2F6CFF"/>
+  <circle cx="615" cy="244" r="10" fill="#2F6CFF" opacity="0.7"/>
+  <circle cx="615" cy="304" r="10" fill="#2F6CFF" opacity="0.7"/>
+  <circle cx="615" cy="364" r="10" fill="#2F6CFF" opacity="0.7"/>
+  <circle cx="615" cy="424" r="10" fill="#2F6CFF" opacity="0.7"/>
+  <circle cx="615" cy="484" r="10" fill="#2F6CFF" opacity="0.7"/>
+
+  <text x="664" y="164" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Clinic Overview</text>
+  <rect x="1182" y="142" width="112" height="30" rx="10" fill="#F7FAFF" stroke="#E4ECF9"/>
+  <text x="1204" y="162" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="12">This Week</text>
+  <path d="M1268 156l8 8 8-8" stroke="#94A3C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="664" y="194" width="154" height="108" rx="16" fill="#F7FAFF" stroke="#E4ECF9"/>
+  <rect x="828" y="194" width="154" height="108" rx="16" fill="#F7FAFF" stroke="#E4ECF9"/>
+  <rect x="992" y="194" width="154" height="108" rx="16" fill="#F7FAFF" stroke="#E4ECF9"/>
+  <rect x="1156" y="194" width="154" height="108" rx="16" fill="#F7FAFF" stroke="#E4ECF9"/>
+  <text x="684" y="224" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="12">Total Appointments</text>
+  <text x="684" y="262" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">1,248</text>
+  <text x="848" y="224" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="12">New Patients</text>
+  <text x="848" y="262" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">312</text>
+  <text x="1012" y="224" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="12">Follow-ups</text>
+  <text x="1012" y="262" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">936</text>
+  <text x="1176" y="224" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="12">No-show Rate</text>
+  <text x="1176" y="262" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">3.2%</text>
+
+  <rect x="664" y="322" width="372" height="290" rx="18" fill="#FFFFFF" stroke="#E4ECF9"/>
+  <text x="684" y="352" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Appointments Trend</text>
+  <path d="M684 548C712 522 734 514 760 520C786 526 806 546 834 548C864 550 890 500 920 504C946 506 972 552 1000 556" stroke="#2F6CFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M684 388H1008" stroke="#EDF3FB"/>
+  <path d="M684 438H1008" stroke="#EDF3FB"/>
+  <path d="M684 488H1008" stroke="#EDF3FB"/>
+
+  <rect x="1050" y="322" width="232" height="290" rx="18" fill="#FFFFFF" stroke="#E4ECF9"/>
+  <text x="1070" y="352" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Appointment by Type</text>
+  <circle cx="1166" cy="466" r="56" fill="none" stroke="#DFE8F6" stroke-width="18"/>
+  <circle cx="1166" cy="466" r="56" fill="none" stroke="#2F6CFF" stroke-width="18" stroke-dasharray="240 160" stroke-dashoffset="34"/>
+  <circle cx="1166" cy="466" r="56" fill="none" stroke="#7EA2FF" stroke-width="18" stroke-dasharray="90 310" stroke-dashoffset="250"/>
+  <circle cx="1166" cy="466" r="56" fill="none" stroke="#B7CCFF" stroke-width="18" stroke-dasharray="45 355" stroke-dashoffset="360"/>
+  <text x="1070" y="510" fill="#62708A" font-family="Inter, Arial, sans-serif" font-size="12">Consultation</text>
+  <text x="1230" y="510" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="12">65%</text>
+  <text x="1070" y="534" fill="#62708A" font-family="Inter, Arial, sans-serif" font-size="12">Follow-up</text>
+  <text x="1230" y="534" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="12">25%</text>
+  <text x="1070" y="558" fill="#62708A" font-family="Inter, Arial, sans-serif" font-size="12">Procedure</text>
+  <text x="1230" y="558" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="12">10%</text>
+</svg>

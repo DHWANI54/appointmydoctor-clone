@@ -1,0 +1,33 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="80" x2="1104" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EAF1FF"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#163D8A"/>
+      <stop offset="1" stop-color="#0F2E70"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+  <rect x="72" y="114" width="452" height="220" rx="24" fill="#FFFFFF" opacity="0.86"/>
+  <rect x="72" y="114" width="452" height="220" rx="24" fill="none" stroke="#E4ECF9"/>
+  <circle cx="108" cy="150" r="8" fill="#1F5DE8"/>
+  <text x="140" y="170" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">We're Here to Help</text>
+  <text x="140" y="214" fill="#5F6C86" font-family="Inter, Arial, sans-serif" font-size="16">Have questions about Appointmydoctor? Our team is ready to</text>
+  <text x="140" y="240" fill="#5F6C86" font-family="Inter, Arial, sans-serif" font-size="16">help you discover how our platform can transform your healthcare</text>
+  <text x="140" y="266" fill="#5F6C86" font-family="Inter, Arial, sans-serif" font-size="16">operations.</text>
+
+  <rect x="712" y="70" width="360" height="590" rx="26" fill="#DDE8F6"/>
+  <rect x="736" y="94" width="312" height="542" rx="22" fill="#F7FAFF"/>
+  <rect x="774" y="138" width="232" height="404" rx="18" fill="#FFFFFF"/>
+  <circle cx="948" cy="210" r="48" fill="#EBC39C"/>
+  <path d="M922 208C922 180 938 156 948 156C960 156 976 180 976 208C976 236 964 258 948 258C934 258 922 236 922 208Z" fill="#F2C39A"/>
+  <path d="M900 206C898 170 916 140 948 140C980 140 1000 170 1000 206C996 214 992 222 988 224C976 216 962 210 948 210C934 210 920 216 900 206Z" fill="#1B2230"/>
+  <path d="M874 328C880 292 896 268 924 258C936 254 956 253 966 256C994 265 1010 292 1014 328V464H870L874 328Z" fill="url(#shirt)"/>
+  <path d="M896 266L862 306L886 322L922 288L896 266Z" fill="#EFF5FF"/>
+  <path d="M922 288L956 322L970 464H946L924 392L922 288Z" fill="#EFF5FF"/>
+  <rect x="804" y="144" width="82" height="82" rx="18" fill="#EEF4FF"/>
+  <circle cx="948" cy="148" r="28" fill="#E1EAF7"/>
+  <text x="804" y="206" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Contact Support</text>
+</svg>

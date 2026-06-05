@@ -1,4 +1,4 @@
-X<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -13,13 +13,19 @@ X<!doctype html>
         <a class="brand" href="./index.html" aria-label="Appointmydoctor home">
           <span>Appoint</span><span class="chip">my</span><span>Doctor</span>
         </a>
-        <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
           <a data-nav="home" href="./index.html">Home</a>
           <a data-nav="about" href="./about.html">About</a>
           <a data-nav="products" href="./products.html">Products</a>
           <a data-nav="clinics" href="./for-clinics.html">For Clinics</a>
           <a data-nav="labs" href="./for-labs.html">For Labs</a>
           <a data-nav="contact" href="./contact.html">Contact</a>
+          <a class="nav-cta" href="./contact.html">Request Demo</a>
         </nav>
       </div>
     </header>
@@ -27,103 +33,281 @@ X<!doctype html>
     <main>
       <section class="hero-band">
         <div class="container hero-grid">
-          <div>
-            <span class="eyebrow">AI-Powered Healthcare Workflow Platform</span>
+          <div class="page-head">
+            <div class="eyebrow">AI-Powered Healthcare Workflow Platform</div>
             <h1 class="hero-title">
-              Helping clinics streamline appointments, consultations,
-              and patient engagement through AI-powered healthcare workflows.
+              Smarter Healthcare.
+              <span class="accent">Better Outcomes.</span>
             </h1>
             <p class="hero-copy">
-              Turning medical data into meaningful care - AI revolutionizing how doctors document and patients thrive
+              Appointmydoctor is an AI-powered platform that helps clinics, labs,
+              and healthcare providers streamline workflows, improve patient
+              engagement, and deliver better care.
             </p>
             <div class="hero-actions">
               <a class="btn primary" href="./contact.html">
                 Request Demo
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M5 12h13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M5 12h12" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/>
+                  <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a class="btn secondary" href="./products.html">Explore Solutions</a>
+            </div>
+            <div class="badge-strip">
+              <span class="badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                AI-Powered
+              </span>
+              <span class="badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                Secure & Compliant
+              </span>
+              <span class="badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M8 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M16.5 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                Built for Healthcare
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card">
+              <img src="./assets/home-hero.svg" alt="Doctor helping an elderly patient with healthcare technology" />
+            </div>
+            <div class="overlay-wave" aria-hidden="true"></div>
+            <div class="overlay-card top">
+              <p class="label">Appointments</p>
+              <p class="value">1,248</p>
+              <p class="sub">+16% vs last month</p>
+            </div>
+            <div class="overlay-card mid">
+              <p class="label">AI Insights</p>
+              <p class="value">32%</p>
+              <p class="sub">Workflow optimized</p>
+            </div>
+            <div class="overlay-card bottom">
+              <p class="label">Patient Satisfaction</p>
+              <p class="value">4.8/5</p>
+              <p class="sub">★★★★★</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <p class="section-label">OUR SOLUTIONS</p>
+          <h2 class="section-title">One Platform. Every Healthcare Need.</h2>
+          <p class="section-subtitle">
+            Unified solutions for clinics, labs, and patients to simplify operations and improve care.
+          </p>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" stroke-width="2"/>
+                  <path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3>For Clinics</h3>
+              <p>Streamline appointments, manage patients, and improve clinic operations.</p>
+              <a class="card-link" href="./for-clinics.html">Learn More
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                   <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </a>
-            </div>
-          </div>
-          <div class="hero-art">
-            <img src="./assets/hero-doctor.svg" alt="Doctor and patient consulting with AI healthcare overlays" />
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M10 3h4v4l4 7a4 4 0 0 1-4 6h-4a4 4 0 0 1-4-6l4-7V3Z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <h3>For Labs</h3>
+              <p>Automate lab workflows, manage reports, and ensure accuracy.</p>
+              <a class="card-link" href="./for-labs.html">Learn More
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M8 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M16.5 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M3.5 21c.8-3.5 3.2-5 6-5s5.2 1.5 6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3>Patient Platform</h3>
+              <p>Empower patients with easy booking, reminders, and health insights.</p>
+              <a class="card-link" href="./products.html">Learn More
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M9.5 12 11 13.5 15 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3>ABDM Integration</h3>
+              <p>Securely share and access health records through ABDM.</p>
+              <a class="card-link" href="./products.html">Learn More
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="section soft">
         <div class="container">
-          <h2 class="section-title">Built for Modern Healthcare Workflows</h2>
-          <p class="section-subtitle">
-            Designed to help clinics simplify operations, improve patient coordination, and prepare for AI-driven healthcare systems.
-          </p>
+          <div class="two-col">
+            <div class="content-block">
+              <p class="section-label values-label" style="text-align:left">WHY CHOOSE US</p>
+              <h2>Built for Modern Healthcare</h2>
+              <p>Combining advanced technology with healthcare expertise to drive better outcomes.</p>
 
-          <div class="feature-grid">
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M7 17c1.7 0 3-1.3 3-3s-1.3-3-3-3-3 1.3-3 3 1.3 3 3 3Z" stroke="currentColor" stroke-width="2"/>
-                  <path d="M17 17c1.7 0 3-1.3 3-3s-1.3-3-3-3-3 1.3-3 3 1.3 3 3 3Z" stroke="currentColor" stroke-width="2"/>
-                  <path d="M9.5 14h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
+              <div class="benefit-grid">
+                <div class="mini-item benefit-item">
+                  <div class="mini-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M8 16V8M12 16V5M16 16v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>AI-Powered Workflows</h4>
+                    <p>Automate routine tasks and reduce manual effort.</p>
+                  </div>
+                </div>
+                <div class="mini-item benefit-item">
+                  <div class="mini-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M4 7h16v10H4z" stroke="currentColor" stroke-width="2"/>
+                      <path d="M4 12h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>End-to-End Platform</h4>
+                    <p>From appointment to reports, all in one place.</p>
+                  </div>
+                </div>
+                <div class="mini-item benefit-item">
+                  <div class="mini-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Real-time Insights</h4>
+                    <p>Make data-driven decisions with powerful analytics.</p>
+                  </div>
+                </div>
+                <div class="mini-item benefit-item">
+                  <div class="mini-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Scalable & Reliable</h4>
+                    <p>Cloud infrastructure designed to grow with you.</p>
+                  </div>
+                </div>
+                <div class="mini-item benefit-item">
+                  <div class="mini-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M8 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" stroke="currentColor" stroke-width="2"/>
+                      <path d="M16.5 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Secure & Compliant</h4>
+                    <p>Built with security and compliance at the core.</p>
+                  </div>
+                </div>
+                <div class="mini-item benefit-item">
+                  <div class="mini-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M4 12c3-4 7-6 8-6s5 2 8 6c-3 4-7 6-8 6s-5-2-8-6Z" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Better Patient Engagement</h4>
+                    <p>Improve communication and patient satisfaction.</p>
+                  </div>
+                </div>
               </div>
-              <h3>AI-Ready Infrastructure</h3>
-              <p>Building the foundation for AI-assisted healthcare workflows and smarter clinical operations.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M12 4 5 7v6c0 4.4 2.9 7.4 7 9 4.1-1.6 7-4.6 7-9V7l-7-3Z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </div>
-              <h3>Designed for Indian Clinics</h3>
-              <p>Focused on private clinics, healthcare providers, and growing healthcare infrastructure needs.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M8 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" stroke="currentColor" stroke-width="2"/>
-                  <path d="M16.5 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"/>
-                  <path d="M3.5 21c.8-3.5 3.2-5 6-5s5.2 1.5 6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-              </div>
-              <h3>End-to-End Workflow</h3>
-              <p>Connecting healthcare operations before, during, and after consultation through one platform.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <rect x="6" y="3" width="12" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
-                  <path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-              </div>
-              <h3>Scalable SaaS Platform</h3>
-              <p>Modern cloud-based infrastructure designed for operational efficiency and scalability.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M12 3l7 3v5c0 4.4-3 8.2-7 10-4-1.8-7-5.6-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
-                  <path d="M9.5 12 11 13.5 14.8 9.7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <h3>ABDM Integrated</h3>
-              <p>Enable ABHA creation, digital health record linking, and consent-based data exchange through seamless ABDM integration.</p>
-            </article>
+            </div>
+
+            <div class="dashboard-card">
+              <img src="./assets/dashboard.svg" alt="Healthcare analytics dashboard" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="logo-strip">
+            <h3 class="trusted-title">Trusted by Healthcare Providers</h3>
+            <p>Join hundreds of clinics and labs that trust Appointmydoctor</p>
+            <div class="logo-row" aria-label="Healthcare provider logos">
+              <div class="logo apollo">Apollo</div>
+              <div class="logo fortis">Fortis</div>
+              <div class="logo medanta">medanta</div>
+              <div class="logo metro">METROPOLIS</div>
+              <div class="logo srl">SRL</div>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="cta-band">
-        <div class="container cta-center">
-          <h2 class="cta-title">Ready to Transform Your Healthcare Experience?</h2>
-          <p class="cta-copy">
-            Join us as we build the next generation of AI-powered healthcare workflow infrastructure.
-          </p>
-          <div class="cta-actions">
-            <a class="btn light" href="./contact.html">Early Access</a>
-            <a class="btn secondary" href="./products.html">Explore Products</a>
+        <div class="container">
+          <div class="cta-panel">
+            <div class="cta-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="4" y="5" width="16" height="14" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M13 14v5M10.5 16.5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Ready to Transform Your Healthcare Experience?</h3>
+              <p>Schedule a demo today and see how Appointmydoctor can help your healthcare organization grow.</p>
+            </div>
+            <a class="btn light" href="./contact.html">
+              Request Demo
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h12" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/>
+                <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
@@ -133,8 +317,29 @@ X<!doctype html>
       <div class="container footer-grid">
         <div>
           <div class="footer-brand"><span>Appoint</span><span class="chip">my</span><span>Doctor</span></div>
-          <p>Building AI-powered healthcare infrastructure designed to simplify clinic workflows, patient engagement, and connected healthcare operations across modern healthcare systems.</p>
+          <p>Building AI-powered healthcare infrastructure designed to simplify clinic workflows, patient engagement, and connected healthcare operations.</p>
           <p>Jaipur, India<br />support@appointmydoctor.in</p>
+          <div class="social-row">
+            <a class="social" href="#" aria-label="LinkedIn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 9v9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M6 6.5v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10 18V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M14 18v-5c0-2 1-3 3-3s3 1 3 3v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="Twitter">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7.5c-.7.3-1.4.5-2.1.6.8-.5 1.2-1.2 1.5-2.1-.8.5-1.6.8-2.5 1-1.5-1.6-4.2-1.2-5.3.8-.5.8-.6 1.8-.4 2.7-3-.1-5.6-1.6-7.3-4-.9 1.6-.4 3.6 1.1 4.7-.6 0-1.1-.2-1.6-.4 0 1.7 1.1 3.2 2.7 3.6-.5.1-1 .1-1.6 0 .5 1.5 1.9 2.6 3.5 2.6-1.6 1.3-3.6 1.9-5.7 1.7 1.6 1 3.5 1.6 5.5 1.6 6.6 0 10.3-5.6 10.1-10.7.7-.5 1.2-1.1 1.6-1.8Z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="YouTube">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="6" width="18" height="12" rx="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M10 9.5 15 12l-5 2.5v-5Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
         </div>
         <div>
           <h4>Navigation</h4>
@@ -143,15 +348,28 @@ X<!doctype html>
             <a href="./about.html">About</a>
             <a href="./products.html">Products</a>
             <a href="./for-clinics.html">For Clinics</a>
+            <a href="./for-labs.html">For Labs</a>
             <a href="./contact.html">Contact</a>
           </div>
         </div>
         <div>
-          <h4>Company</h4>
+          <h4>Solutions</h4>
+          <div class="footer-links">
+            <a href="./for-clinics.html">Clinic Management</a>
+            <a href="./for-labs.html">Lab Management</a>
+            <a href="./products.html">Patient Platform</a>
+            <a href="./products.html">ABDM Integration</a>
+            <a href="./products.html">Analytics &amp; Insights</a>
+            <a href="./products.html">AI Workflows</a>
+          </div>
+        </div>
+        <div>
+          <h4>Legal</h4>
           <div class="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms &amp; Conditions</a>
             <a href="#">Refund &amp; Reschedule Policy</a>
+            <a href="#">Data Security</a>
           </div>
         </div>
       </div>

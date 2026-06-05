@@ -1,0 +1,69 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="90" x2="1080" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#EAF1FF"/>
+    </linearGradient>
+    <linearGradient id="core" x1="520" y1="220" x2="700" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F2F6FC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" rx="28" fill="url(#bg)"/>
+  <circle cx="600" cy="420" r="190" stroke="#B8CCF2" stroke-dasharray="5 9" stroke-width="2" fill="none"/>
+  <circle cx="600" cy="420" r="84" fill="url(#core)" stroke="#E4ECF9"/>
+  <text x="600" y="405" text-anchor="middle" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Appoint</text>
+  <rect x="576" y="408" width="30" height="22" rx="5" fill="#1F5DE8"/>
+  <text x="591" y="424" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">my</text>
+  <text x="600" y="446" text-anchor="middle" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Doctor</text>
+
+  <rect x="512" y="88" width="176" height="132" rx="22" fill="#FFFFFF" stroke="#E4ECF9"/>
+  <rect x="480" y="310" width="176" height="132" rx="22" fill="#FFFFFF" stroke="#E4ECF9"/>
+  <rect x="742" y="310" width="176" height="132" rx="22" fill="#FFFFFF" stroke="#E4ECF9"/>
+  <rect x="524" y="550" width="176" height="132" rx="22" fill="#FFFFFF" stroke="#E4ECF9"/>
+
+  <path d="M600 220V255" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M512 376H458" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M776 376H744" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M600 550V504" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+
+  <path d="M600 220C674 220 734 280 734 354" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M600 220C526 220 466 280 466 354" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M600 540C674 540 734 480 734 406" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M600 540C526 540 466 480 466 406" stroke="#B8CCF2" stroke-width="2" stroke-dasharray="5 7"/>
+
+  <circle cx="600" cy="132" r="12" fill="#1F5DE8" opacity="0.14"/>
+  <circle cx="536" cy="360" r="12" fill="#1F5DE8" opacity="0.14"/>
+  <circle cx="864" cy="360" r="12" fill="#1F5DE8" opacity="0.14"/>
+  <circle cx="600" cy="614" r="12" fill="#1F5DE8" opacity="0.14"/>
+
+  <rect x="540" y="112" width="40" height="40" rx="10" fill="#EDF4FF"/>
+  <path d="M550 138V126h20v12" stroke="#1F5DE8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M550 134h20" stroke="#1F5DE8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="504" y="334" width="40" height="40" rx="10" fill="#EDF4FF"/>
+  <path d="M516 358l8-18 8 18" stroke="#1F5DE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M517 352h14" stroke="#1F5DE8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="780" y="334" width="40" height="40" rx="10" fill="#EDF4FF"/>
+  <path d="M789 348c0-6 5-11 11-11s11 5 11 11-5 11-11 11-11-5-11-11Z" stroke="#1F5DE8" stroke-width="3"/>
+  <path d="M805 346c0-4 3-8 8-8 4 0 8 4 8 8s-4 8-8 8c-5 0-8-4-8-8Z" stroke="#1F5DE8" stroke-width="3"/>
+  <rect x="572" y="572" width="40" height="40" rx="10" fill="#EDF4FF"/>
+  <path d="M582 588l8-6 8 6v10l-8 6-8-6v-10Z" stroke="#1F5DE8" stroke-width="3" stroke-linejoin="round"/>
+
+  <text x="600" y="190" text-anchor="middle" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Clinics</text>
+  <text x="600" y="208" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">Streamline operations &amp;</text>
+  <text x="600" y="222" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">improve patient care</text>
+
+  <text x="548" y="395" text-anchor="middle" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Labs</text>
+  <text x="548" y="413" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">Optimize workflows</text>
+  <text x="548" y="427" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">&amp; deliver accurate</text>
+  <text x="548" y="441" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">results faster</text>
+
+  <text x="866" y="395" text-anchor="middle" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Patients</text>
+  <text x="866" y="413" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">Easy access,</text>
+  <text x="866" y="427" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">seamless communication</text>
+  <text x="866" y="441" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">&amp; better engagement</text>
+
+  <text x="612" y="634" text-anchor="middle" fill="#16223B" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">ABDM Integration</text>
+  <text x="612" y="652" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">Securely share &amp; access</text>
+  <text x="612" y="666" text-anchor="middle" fill="#66748E" font-family="Inter, Arial, sans-serif" font-size="11">health records</text>
+</svg>

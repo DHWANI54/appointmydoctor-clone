@@ -13,145 +13,206 @@
         <a class="brand" href="./index.html" aria-label="Appointmydoctor home">
           <span>Appoint</span><span class="chip">my</span><span>Doctor</span>
         </a>
-        <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
           <a data-nav="home" href="./index.html">Home</a>
           <a data-nav="about" href="./about.html">About</a>
           <a data-nav="products" href="./products.html">Products</a>
           <a data-nav="clinics" href="./for-clinics.html">For Clinics</a>
           <a data-nav="labs" href="./for-labs.html">For Labs</a>
           <a data-nav="contact" href="./contact.html">Contact</a>
+          <a class="nav-cta" href="./contact.html">Request Demo</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="hero-band tight">
-        <div class="container page-head">
-          <h1 class="hero-title medium">About <span class="accent">Appointmydoctor</span></h1>
-          <p class="hero-copy">
-            We're on a mission to democratize healthcare access through innovative technology solutions that connect and empower everyone in the healthcare ecosystem.
-          </p>
+      <section class="hero-band">
+        <div class="container hero-grid">
+          <div class="page-head">
+            <div class="eyebrow">ABOUT APPOINTMYDOCTOR</div>
+            <h1 class="hero-title medium">
+              Building a Smarter,
+              <span class="accent">More Connected Healthcare</span>
+            </h1>
+            <p class="hero-copy">
+              We're on a mission to democratize healthcare access through innovative technology solutions that connect and empower everyone in the healthcare ecosystem.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat">
+                <div class="stat-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M8 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16.5 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>500+</strong>
+                  <span>Clinics &amp; Labs</span>
+                </div>
+              </div>
+              <div class="stat">
+                <div class="stat-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 3v18M5 7h14M5 17h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>10M+</strong>
+                  <span>Patients</span>
+                </div>
+              </div>
+              <div class="stat">
+                <div class="stat-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M9.5 12 11 13.5 15 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>99.9%</strong>
+                  <span>Data Uptime</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="photo-card">
+              <img src="./assets/about-hero.svg" alt="Healthcare team meeting in a modern clinic boardroom" />
+            </div>
+            <div class="overlay-wave" aria-hidden="true"></div>
+          </div>
         </div>
       </section>
 
       <section class="section">
-        <div class="container split center">
-          <div class="content-block">
-            <h2>Our Story</h2>
-            <p>Founded in 2025, Appointmydoctor began with a simple truth. Healthcare in India can be better: more caring, connected, and clear for everyone stakeholders.</p>
-            <p>Our founders, driven by a shared mission, united their expertise in healthcare, technology, and policy to bridge the gaps that leave patients and doctors struggling.</p>
-            <p>We're on a heartfelt journey, working closely with the Ayushman Bharat Digital Mission and striving for ABDM compliance, to create a future where digital health truly empowers every individual, doctor, and community.</p>
-          </div>
-          <div class="content-art">
-            <img src="./assets/about-team.svg" alt="Team working together around laptops and a planning wall" />
+        <div class="container">
+          <div class="feature-grid three">
+            <article class="feature-card center">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 21s-7-4.5-7-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 19 11c0 5.5-7 10-7 10Z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <h3>Our Mission</h3>
+              <p>To empower early disease detection and improve healthcare outcomes by providing accessible, AI-powered solutions for clinics, labs, and patients.</p>
+            </article>
+            <article class="feature-card center">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 12c2.5-5 13.5-5 16 0-2.5 5-13.5 5-16 0Z" stroke="currentColor" stroke-width="2"/>
+                  <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                </svg>
+              </div>
+              <h3>Our Vision</h3>
+              <p>A world where everyone, everywhere, has access to quality healthcare where technology connects hearts and minds to transform lives.</p>
+            </article>
+            <article class="feature-card center">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <h3>Our Impact</h3>
+              <p>Bridging India's digital healthcare gap by delivering compassionate, cutting-edge technology that reaches every community, enabling healthier futures.</p>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="section soft">
         <div class="container">
-          <div class="feature-grid three">
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <circle cx="12" cy="12" r="7" stroke="currentColor" stroke-width="2"/>
-                  <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                </svg>
-              </div>
-              <h3>Mission</h3>
-              <p>To empower early disease detection through seamless, secure health records helping prevent illness and giving patients and providers the technology they need to care smarter and live healthier.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M4 12c2.5-5 13.5-5 16 0-2.5 5-13.5 5-16 0Z" stroke="currentColor" stroke-width="2"/>
-                  <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                </svg>
-              </div>
-              <h3>Vision</h3>
-              <p>A world where everyone, everywhere, has access to quality healthcare where technology connects hearts and minds to transform lives before health issues take hold.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M12 3 20 7v6c0 4.7-3.1 7.9-8 9-4.9-1.1-8-4.3-8-9V7l8-4Z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </div>
-              <h3>Impact</h3>
-              <p>Bridging India's digital healthcare gap by delivering compassionate, cutting edge technology that reaches every community, enabling healthier futures for all.</p>
-            </article>
-          </div>
-        </div>
-      </section>
+          <p class="section-label">OUR VALUES</p>
+          <h2 class="section-title">The Principles That Drive Us</h2>
+          <p class="section-subtitle">We are guided by core values that shape every decision we make.</p>
 
-      <section class="section">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Our Values</h2>
-          </div>
           <div class="feature-grid four">
-            <article class="feature-card">
+            <article class="feature-card compact">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M12 21s-7-4.5-7-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 19 11c0 5.5-7 10-7 10Z" stroke="currentColor" stroke-width="2"/>
                 </svg>
               </div>
               <h3>Patient-Centric</h3>
-              <p>Every decision we make prioritizes patient outcomes and experiences.</p>
+              <p>Every decision we make puts patients and their well-being at the center.</p>
             </article>
-            <article class="feature-card">
+            <article class="feature-card compact">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M12 4l7 3v5c0 4.5-2.7 7.8-7 10-4.3-2.2-7-5.5-7-10V7l7-3Z" stroke="currentColor" stroke-width="2"/>
                   <path d="M9 12.5 11 14.5 15.5 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
               <h3>Innovation</h3>
-              <p>Continuously pushing the boundaries of healthcare technology.</p>
+              <p>We continuously push the boundaries of technology to solve real healthcare challenges.</p>
             </article>
-            <article class="feature-card">
+            <article class="feature-card compact">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M12 3l7 3v5c0 4.4-3 8.2-7 10-4-1.8-7-5.6-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="2"/>
                   <path d="M12 7v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 </svg>
               </div>
               <h3>Security &amp; Privacy</h3>
-              <p>Maintaining the highest standards of data protection and compliance.</p>
+              <p>We maintain the highest standards of data protection, privacy, and regulatory compliance.</p>
             </article>
-            <article class="feature-card">
+            <article class="feature-card compact">
               <div class="feature-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M8 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" stroke="currentColor" stroke-width="2"/>
                   <path d="M16.5 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"/>
                   <path d="M3.5 21c.8-3.5 3.2-5 6-5s5.2 1.5 6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 </svg>
               </div>
               <h3>Collaboration</h3>
-              <p>Building bridges between patients, providers, and healthcare systems.</p>
+              <p>We believe in the power of partnerships to build a stronger healthcare ecosystem.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section soft">
+      <section class="section muted-band">
         <div class="container">
           <div class="section-heading">
-            <h2>The Problem We're Solving</h2>
-            <p>India's healthcare system holds immense promise, yet millions still face barriers that technology can help overcome.</p>
+            <h2>The Problem We’re Solving</h2>
+            <p>India's healthcare system holds immense promise, yet millions still face challenges.</p>
           </div>
-          <div class="problem-grid">
-            <article class="problem-card">
+          <div class="problem-strip">
+            <article class="problem-item">
+              <div class="problem-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 6h14v12H5z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M5 10h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
               <h3>Fragmented Care</h3>
-              <p>Too often, patient stories and vital health data are scattered across different places, leaving doctors without the full picture. This fragmentation leads to missed connections, delayed treatments, and unnecessary worry for both patients and their families.</p>
+              <p>Patient data is scattered across multiple systems, making it difficult for doctors to get a complete picture.</p>
             </article>
-            <article class="problem-card">
+            <article class="problem-item">
+              <div class="problem-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 7h16v10H4z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M8 11h8M8 15h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
               <h3>Access Barriers</h3>
-              <p>For millions living in remote or underserved areas, quality healthcare feels out of reach. Distance, cost, and lack of resources create walls that separate people from the care they deserve.</p>
+              <p>Millions in remote and underserved areas still lack access to quality healthcare and timely diagnostics.</p>
             </article>
-            <article class="problem-card">
+            <article class="problem-item">
+              <div class="problem-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 18 9 14l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18 10h1v1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
               <h3>Data Silos</h3>
-              <p>When health systems don't communicate, lives can be lost in the gaps. Repeated tests, overlooked warnings, and missed diagnoses happen all because crucial information is trapped and isolated.</p>
+              <p>Lack of interoperability and data visibility leads to inefficiencies and delays in critical decision-making.</p>
             </article>
           </div>
         </div>
@@ -161,30 +222,66 @@
         <div class="container">
           <div class="section-heading">
             <h2>Meet The Founders</h2>
-            <p>Building the future of AI-powered healthcare infrastructure with innovation, empathy, and technology.</p>
+            <p>Healthcare innovators with a shared vision to transform lives.</p>
           </div>
           <div class="founder-grid">
             <article class="founder-card">
-              <div class="avatar">K</div>
-              <h3>Kunal Mudgal</h3>
-              <div class="founder-role">Founder &amp; CEO</div>
-              <p>Kunal leads Appointmydoctor's vision of transforming healthcare operations through AI powered solutions, combining expertise in AI, healthcare technology, and startup innovation.</p>
-              <a href="#">View LinkedIn →</a>
+              <div class="founder-photo">
+                <img src="./assets/founder-kunal.svg" alt="Kunal Mudgal" />
+              </div>
+              <div>
+                <h3>Kunal Mudgal</h3>
+                <div class="founder-role">Founder &amp; CEO</div>
+                <p>Visionary leader with expertise in AI and healthcare technology, driving innovation and strategic growth.</p>
+                <a href="#">LinkedIn</a>
+              </div>
             </article>
             <article class="founder-card">
-              <div class="avatar">C</div>
-              <h3>CHINTU JAIN</h3>
-              <div class="founder-role">Co-Founder &amp; CTO</div>
-              <p>drives Appointmydoctor's technical architecture and product engineering, building scalable healthcare systems focused on performance, security, and user experience.</p>
-              <a href="#">View LinkedIn →</a>
+              <div class="founder-photo">
+                <img src="./assets/founder-chintu.svg" alt="Chintu Jain" />
+              </div>
+              <div>
+                <h3>Chintu Jain</h3>
+                <div class="founder-role">Co-Founder &amp; CTO</div>
+                <p>Tech architect and product expert focused on building scalable, secure, and user-centric solutions.</p>
+                <a href="#">LinkedIn</a>
+              </div>
             </article>
             <article class="founder-card">
-              <div class="avatar">T</div>
-              <h3>Tanish Jain</h3>
-              <div class="founder-role">Co-Founder &amp; CSO</div>
-              <p>Tanish Jain leads Appointmydoctor's strategic growth, partnerships, and operational expansion, helping scale healthcare innovation through strong business development and ecosystem collaboration.</p>
-              <a href="#">View LinkedIn →</a>
+              <div class="founder-photo">
+                <img src="./assets/founder-tanish.svg" alt="Tanish Jain" />
+              </div>
+              <div>
+                <h3>Tanish Jain</h3>
+                <div class="founder-role">Co-Founder &amp; CSO</div>
+                <p>Strategic growth leader with strong partnership and business development expertise in healthcare.</p>
+                <a href="#">LinkedIn</a>
+              </div>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="container">
+          <div class="cta-panel">
+            <div class="cta-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="4" y="5" width="16" height="14" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Let’s Build the Future of Healthcare Together</h3>
+              <p>Join us in our mission to make healthcare more accessible, connected, and effective for everyone.</p>
+            </div>
+            <a class="btn light" href="./contact.html">
+              Request Demo
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h12" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/>
+                <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
@@ -194,8 +291,28 @@
       <div class="container footer-grid">
         <div>
           <div class="footer-brand"><span>Appoint</span><span class="chip">my</span><span>Doctor</span></div>
-          <p>Building AI-powered healthcare infrastructure designed to simplify clinic workflows, patient engagement, and connected healthcare operations across modern healthcare systems.</p>
+          <p>Building AI-powered healthcare infrastructure designed to simplify clinic workflows, patient engagement, and connected healthcare operations.</p>
           <p>Jaipur, India<br />support@appointmydoctor.in</p>
+          <div class="social-row">
+            <a class="social" href="#" aria-label="LinkedIn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 9v9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10 18V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M14 18v-5c0-2 1-3 3-3s3 1 3 3v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="Twitter">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7.5c-.7.3-1.4.5-2.1.6.8-.5 1.2-1.2 1.5-2.1-.8.5-1.6.8-2.5 1-1.5-1.6-4.2-1.2-5.3.8-.5.8-.6 1.8-.4 2.7-3-.1-5.6-1.6-7.3-4-.9 1.6-.4 3.6 1.1 4.7-.6 0-1.1-.2-1.6-.4 0 1.7 1.1 3.2 2.7 3.6-.5.1-1 .1-1.6 0 .5 1.5 1.9 2.6 3.5 2.6-1.6 1.3-3.6 1.9-5.7 1.7 1.6 1 3.5 1.6 5.5 1.6 6.6 0 10.3-5.6 10.1-10.7.7-.5 1.2-1.1 1.6-1.8Z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="YouTube">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="6" width="18" height="12" rx="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M10 9.5 15 12l-5 2.5v-5Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
         </div>
         <div>
           <h4>Navigation</h4>
@@ -204,15 +321,28 @@
             <a href="./about.html">About</a>
             <a href="./products.html">Products</a>
             <a href="./for-clinics.html">For Clinics</a>
+            <a href="./for-labs.html">For Labs</a>
             <a href="./contact.html">Contact</a>
           </div>
         </div>
         <div>
-          <h4>Company</h4>
+          <h4>Solutions</h4>
+          <div class="footer-links">
+            <a href="./for-clinics.html">Clinic Management</a>
+            <a href="./for-labs.html">Lab Management</a>
+            <a href="./products.html">Patient Platform</a>
+            <a href="./products.html">ABDM Integration</a>
+            <a href="./products.html">Analytics &amp; Insights</a>
+            <a href="./products.html">AI Workflows</a>
+          </div>
+        </div>
+        <div>
+          <h4>Legal</h4>
           <div class="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms &amp; Conditions</a>
             <a href="#">Refund &amp; Reschedule Policy</a>
+            <a href="#">Data Security</a>
           </div>
         </div>
       </div>
