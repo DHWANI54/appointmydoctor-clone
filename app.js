@@ -78,18 +78,19 @@ function initFaqAccordion() {
 function initMobileNav() {
   const nav = document.querySelector('#primary-nav');
   const toggle = document.querySelector('[data-nav-toggle]');
+  const overlay = document.querySelector('[data-nav-overlay]');
   if (!nav || !toggle) return;
 
   const closeNav = () => {
     nav.classList.remove('is-open');
     toggle.setAttribute('aria-expanded', 'false');
-    document.body.classList.remove('menu-open');
+    if (overlay) overlay.classList.remove('is-open');
   };
 
   const openNav = () => {
     nav.classList.add('is-open');
     toggle.setAttribute('aria-expanded', 'true');
-    document.body.classList.add('menu-open');
+    if (overlay) overlay.classList.add('is-open');
   };
 
   toggle.addEventListener('click', () => {
@@ -109,11 +110,15 @@ function initMobileNav() {
     });
   });
 
+  if (overlay) {
+    overlay.addEventListener('click', closeNav);
+  }
+
   window.addEventListener('resize', () => {
     if (!window.matchMedia('(max-width: 960px)').matches) {
       nav.classList.remove('is-open');
       toggle.setAttribute('aria-expanded', 'false');
-      document.body.classList.remove('menu-open');
+      if (overlay) overlay.classList.remove('is-open');
     }
   });
 
