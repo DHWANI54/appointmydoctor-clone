@@ -172,9 +172,10 @@ textarea {
   min-height: 42px;
   padding: 0 18px;
   border-radius: 8px;
-  background: linear-gradient(180deg, var(--blue) 0%, var(--blue-3) 100%);
+  background: linear-gradient(180deg, #2f6cff 0%, #1f5de8 100%);
   color: #fff;
   box-shadow: 0 14px 28px rgba(31, 93, 232, 0.18);
+  border-bottom: 0;
 }
 
 .nav .nav-cta::after {
@@ -1091,11 +1092,15 @@ textarea {
 .social {
   width: 28px;
   height: 28px;
-  border-radius: 4px;
-  background: var(--blue);
+  border-radius: 6px;
+  background: linear-gradient(180deg, #2f6cff 0%, #1f5de8 100%);
   color: #fff;
   display: grid;
   place-items: center;
+}
+
+.social svg {
+  display: block;
 }
 
 .footer hr {
@@ -1568,6 +1573,9 @@ textarea {
   .nav .nav-cta {
     margin: 10px 0 0;
     width: 100%;
+    border-bottom: 0;
+    justify-content: flex-start;
+    padding-left: 22px;
   }
 }
 
@@ -1624,5 +1632,10 @@ textarea {
 
   .founder-card {
     grid-template-columns: 1fr;
+  }
+
+  .social {
+    width: 30px;
+    height: 30px;
   }
 }
