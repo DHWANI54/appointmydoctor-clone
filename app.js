@@ -83,11 +83,13 @@ function initMobileNav() {
   const closeNav = () => {
     nav.classList.remove('is-open');
     toggle.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('menu-open');
   };
 
   const openNav = () => {
     nav.classList.add('is-open');
     toggle.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('menu-open');
   };
 
   toggle.addEventListener('click', () => {
@@ -111,6 +113,7 @@ function initMobileNav() {
     if (!window.matchMedia('(max-width: 960px)').matches) {
       nav.classList.remove('is-open');
       toggle.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('menu-open');
     }
   });
 
