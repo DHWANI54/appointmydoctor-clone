@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Appointmydoctor - Products</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body data-page="products">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="./index.html" aria-label="Appointmydoctor home">
+          <span>Appoint</span><span class="chip">my</span><span>Doctor</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a data-nav="home" href="./index.html">Home</a>
+          <a data-nav="about" href="./about.html">About</a>
+          <a data-nav="products" href="./products.html">Products</a>
+          <a data-nav="clinics" href="./for-clinics.html">For Clinics</a>
+          <a data-nav="labs" href="./for-labs.html">For Labs</a>
+          <a data-nav="contact" href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-band tight">
+        <div class="container page-head">
+          <h1 class="hero-title medium">One Connected Platform for the Complete Healthcare Journey</h1>
+          <p class="hero-copy">
+            Appointmydoctor is building an AI-powered healthcare workflow platform designed to support clinics, healthcare providers, and patients across every stage of the consultation process.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container text-center">
+          <div class="tabs" data-tabs>
+            <button class="active" type="button" data-tab="patient" aria-selected="true">Patient Platform</button>
+            <button type="button" data-tab="clinic" aria-selected="false">Clinic SaaS Platform</button>
+          </div>
+
+          <div class="tab-panels">
+            <section class="tab-panel active" data-panel="patient">
+              <div class="split center">
+                <div class="content-block">
+                  <h2>Patient Experience Platform</h2>
+                  <h3 class="accent">Designed for Connected Patient Care</h3>
+                  <p>An AI-powered patient engagement platform designed to simplify appointment booking, digital health record access, medication management, and post-consultation communication through one connected healthcare experience.</p>
+                  <div class="stack-list">
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M7 4h10v16H7z" stroke="currentColor" stroke-width="2"/>
+                          <path d="M10 8h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M10 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>Personal Health Records &amp; ABHA ID Creation</h4>
+                        <p>Secure, comprehensive digital health records accessible anytime, anywhere</p>
+                      </div>
+                    </article>
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" stroke-width="2"/>
+                          <path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>Smart Appointment Scheduling &amp; Reminders</h4>
+                        <p>Easy appointment booking with preferred doctors and automated reminders</p>
+                      </div>
+                    </article>
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M6 11h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M5 19h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>Medication Management &amp; Interaction Alerts</h4>
+                        <p>Intelligent reminders and drug interaction alerts for better adherence</p>
+                      </div>
+                    </article>
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M8 15v-4M12 15V8M16 15V11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>AI-Powered Health Analytics &amp; Insights</h4>
+                        <p>Personal health insights and trends powered by AI analytics</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="content-art">
+                  <img src="./assets/patient-care.svg" alt="Patient receiving care from a clinician using digital health tools" />
+                </div>
+              </div>
+            </section>
+
+            <section class="tab-panel" data-panel="clinic" hidden>
+              <div class="split center">
+                <div class="content-block">
+                  <h2>Clinic Operations Platform</h2>
+                  <h3 class="accent">Built for Healthcare Teams</h3>
+                  <p>An operational SaaS layer for clinics that connects scheduling, record keeping, communication, billing workflows, and ABDM-ready data exchange into one control surface.</p>
+                  <div class="stack-list">
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M4 7h16v10H4z" stroke="currentColor" stroke-width="2"/>
+                          <path d="M8 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>Unified Desk Dashboard</h4>
+                        <p>See appointments, queue status, patient notes, and alerts in one screen</p>
+                      </div>
+                    </article>
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M8 6h8l3 4v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V10l3-4Z" stroke="currentColor" stroke-width="2"/>
+                          <path d="M9 6V4h6v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>Clinic Documentation Suite</h4>
+                        <p>Reusable notes, prescription summaries, and structured visit records</p>
+                      </div>
+                    </article>
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>ABDM and Consent Workflow</h4>
+                        <p>Patient consent, health ID handling, and digital exchange flow support</p>
+                      </div>
+                    </article>
+                    <article class="stack-item">
+                      <div class="mini-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M4 19h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M7 16V9M12 16V6M17 16v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4>Operational Analytics</h4>
+                        <p>Track throughput, engagement, and workflow efficiency over time</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="content-art">
+                  <img src="./assets/hero-doctor.svg" alt="Clinic staff using an AI connected healthcare dashboard" />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Why Clinics Choose Appointmydoctor</h2>
+            <p>Built to improve operational efficiency, patient engagement, and connected healthcare delivery.</p>
+          </div>
+          <div class="highlight-grid">
+            <article class="highlight-card">
+              <h3>Smart</h3>
+              <p>Appointment Workflows</p>
+              <p class="page-note">Streamlined scheduling and automated workflows</p>
+            </article>
+            <article class="highlight-card">
+              <h3>Connected</h3>
+              <p>Patient Records</p>
+              <p class="page-note">Better care coordination and treatment adherence</p>
+            </article>
+            <article class="highlight-card">
+              <h3>AI-Ready</h3>
+              <p>Healthcare Operations</p>
+              <p class="page-note">Automated documentation and billing processes</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand"><span>Appoint</span><span class="chip">my</span><span>Doctor</span></div>
+          <p>Building AI-powered healthcare infrastructure designed to simplify clinic workflows, patient engagement, and connected healthcare operations across modern healthcare systems.</p>
+          <p>Jaipur, India<br />support@appointmydoctor.in</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./products.html">Products</a>
+            <a href="./for-clinics.html">For Clinics</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Refund &amp; Reschedule Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <hr />
+        <div class="copyright">© <span data-year></span> Appointmydoctor. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>

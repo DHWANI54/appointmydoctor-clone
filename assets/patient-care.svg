@@ -1,0 +1,68 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="118" y1="84" x2="1066" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F7FF"/>
+      <stop offset="1" stop-color="#EAF1FF"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="840" y1="190" x2="1032" y2="602" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCE6F4"/>
+    </linearGradient>
+    <linearGradient id="holo" x1="520" y1="170" x2="824" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EF4FF" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#5EA0FF" stop-opacity="0.13"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="760" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.36 0 0 0 0 0.21 0 0 0 0 0.76 0 0 0 0.15 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" rx="24" fill="url(#bg)"/>
+  <rect x="30" y="24" width="1140" height="712" rx="20" fill="#FFF" filter="url(#shadow)"/>
+
+  <rect x="104" y="110" width="136" height="106" rx="16" fill="#1E3A6D"/>
+  <path d="M104 183H240V190C240 198 233 205 225 205H119C111 205 104 198 104 190V183Z" fill="#193056"/>
+  <circle cx="150" cy="154" r="12" fill="#81D9FF"/>
+  <rect x="186" y="144" width="30" height="22" rx="11" fill="#81D9FF" opacity="0.5"/>
+  <rect x="157" y="150" width="18" height="10" rx="5" fill="#B3D0FF" opacity="0.8"/>
+
+  <ellipse cx="641" cy="380" rx="428" ry="250" fill="#EEF4FF" opacity="0.78"/>
+  <rect x="544" y="156" width="330" height="222" rx="20" fill="url(#holo)" stroke="#A5DFFB" stroke-opacity="0.5"/>
+  <rect x="570" y="182" width="256" height="156" rx="14" fill="rgba(255,255,255,0.18)" stroke="#C2E9FF" stroke-opacity="0.42"/>
+  <circle cx="650" cy="238" r="26" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="616" y="234" width="72" height="12" rx="6" fill="#EFFFFF" opacity="0.82"/>
+  <rect x="606" y="258" width="98" height="12" rx="6" fill="#EFFFFF" opacity="0.66"/>
+  <circle cx="776" cy="214" r="14" fill="#8AF3FF" opacity="0.7"/>
+  <circle cx="816" cy="280" r="20" fill="#8AF3FF" opacity="0.45"/>
+  <path d="M740 318C768 302 792 296 824 292" stroke="#6FD8FF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M718 336C744 320 767 315 802 311" stroke="#6FD8FF" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+
+  <rect x="468" y="450" width="598" height="176" rx="18" fill="#D9E3F1"/>
+  <rect x="490" y="478" width="140" height="110" rx="16" fill="#FFFFFF" opacity="0.88"/>
+  <rect x="508" y="500" width="92" height="12" rx="6" fill="#A6B8D0"/>
+  <rect x="508" y="524" width="110" height="12" rx="6" fill="#C1CBE0"/>
+  <rect x="508" y="548" width="72" height="12" rx="6" fill="#C1CBE0"/>
+
+  <circle cx="575" cy="360" r="56" fill="#CFA07B"/>
+  <path d="M542 358C542 325 559 298 575 298C593 298 611 324 611 358C611 394 594 417 575 417C557 417 542 394 542 358Z" fill="#F2C39A"/>
+  <path d="M531 350C529 304 553 270 575 270C601 270 625 305 627 348C624 357 621 366 617 370C602 360 590 354 575 354C560 354 547 360 531 350Z" fill="#2D303D"/>
+  <path d="M505 555C509 514 523 487 545 474C555 468 567 465 575 465C585 465 597 468 606 474C628 487 642 514 646 555V626H500L505 555Z" fill="#487BD2"/>
+  <path d="M528 485L482 539L513 560L560 516L528 485Z" fill="#EDF4FF"/>
+  <path d="M560 516L603 558L620 626H592L558 556L560 516Z" fill="#EDF4FF"/>
+  <rect x="606" y="512" width="206" height="106" rx="16" fill="url(#coat)"/>
+  <circle cx="752" cy="370" r="50" fill="#EBC09B"/>
+  <path d="M724 368C724 339 740 316 752 316C765 316 780 340 780 368C780 398 766 416 752 416C739 416 724 398 724 368Z" fill="#F2C39A"/>
+  <path d="M716 362C714 323 733 292 752 292C773 292 791 324 793 360C792 368 788 378 785 382C774 374 765 370 752 370C739 370 728 375 716 362Z" fill="#A3AAB7"/>
+  <path d="M694 548C698 506 713 479 736 466C745 461 759 459 767 459C778 459 789 462 798 468C820 481 834 508 838 548V626H690L694 548Z" fill="#F0C89A"/>
+  <path d="M711 482L667 535L697 560L744 515L711 482Z" fill="#EDF4FF"/>
+  <path d="M744 515L788 558L806 626H777L746 556L744 515Z" fill="#EDF4FF"/>
+  <rect x="650" y="520" width="18" height="18" rx="9" fill="#8AF3FF" opacity="0.72"/>
+  <rect x="688" y="520" width="18" height="18" rx="9" fill="#8AF3FF" opacity="0.52"/>
+  <rect x="726" y="520" width="18" height="18" rx="9" fill="#8AF3FF" opacity="0.42"/>
+</svg>
