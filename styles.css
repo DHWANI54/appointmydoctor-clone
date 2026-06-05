@@ -1549,7 +1549,7 @@ textarea {
   .nav {
     display: none;
     position: fixed;
-    top: 74px;
+    top: 76px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -1572,8 +1572,9 @@ textarea {
 
   .nav a {
     width: 100%;
-    padding: 14px 6px;
+    padding: 18px 6px;
     border-bottom: 1px solid rgba(232, 237, 246, 0.8);
+    font-size: 20px;
   }
 
   .nav a.active::after {
@@ -1583,12 +1584,13 @@ textarea {
   }
 
   .nav .nav-cta {
-    margin: 10px 0 0;
+    order: -1;
+    margin: 0 0 14px;
     width: 100%;
     border-bottom: 0;
     justify-content: center;
     padding-left: 18px;
-    min-height: 56px;
+    min-height: 58px;
     border-radius: 16px;
     font-size: 18px;
   }
